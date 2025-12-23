@@ -1,6 +1,6 @@
 # Raspberry Pi & Linux VM Monitoring Stack
 
-A hands-on monitoring setup using **Prometheus** and **Grafana**, designed to simulate a small-scale **Network Operations Center (NOC)** environment. This project collects and visualizes system metrics from multiple nodes, including a Raspberry Pi and a Linux virtual machine.
+A hands-on monitoring setup using **Prometheus** and **Grafana**, designed to simulate a small-scale **Network Operations Center (NOC)** environment. This project collects and visualizes system metrics from two nodes, including a Raspberry Pi and a Linux virtual machine.
 
 ---
 
