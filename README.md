@@ -26,7 +26,7 @@ Prometheus is used to scrape metrics from multiple Linux systems, and Grafana is
 - Hardware temperature
 
 ### Access
-- Grafana Web UI: http://<RaspberryPi-IP>:3000
+- Grafana Web UI: http://(static raspberrypi ip address):3000
 
 ### Files Included
 - `grafana-dashboard.json` – Exported Grafana dashboard
