@@ -1,15 +1,37 @@
 # Raspberry Pi & Linux VM Monitoring Stack
 
-A hands-on monitoring setup using **Prometheus** and **Grafana**, designed to simulate a small-scale **Network Operations Center (NOC)** environment. This project collects and visualizes system metrics from two nodes, including a Raspberry Pi and a Linux virtual machine.
 
----
+### Overview
+This project demonstrates a basic monitoring stack commonly used in Network Operations Centers (NOCs). 
+Prometheus is used to scrape metrics from multiple Linux systems, and Grafana is used for visualization.
 
-## 🛠️ Features
+### Architecture
+- Raspberry Pi running:
+  - Prometheus
+  - Grafana
+  - Node Exporter
+- Linux Virtual Machine running:
+  - Node Exporter
 
-- **Prometheus** collects real-time metrics from multiple nodes.  
-- **Grafana dashboards** visualize CPU, memory, disk, and network metrics.  
-- Flexible configuration using job names and labels for multiple devices.  
-- Fully documented and reproducible setup on Raspberry Pi and Linux VM.  
-- Demonstrates troubleshooting, configuration management, and monitoring best practices.
+### Metrics Collected
+- CPU utilization
+- Memory usage
+- Disk usage
+- Network traffic
+- System uptime
+- Hardware temperature
 
----
+### Access
+- Grafana Web UI: http://<RaspberryPi-IP>:3000
+
+### Files Included
+- `grafana-dashboard.json` – Exported Grafana dashboard
+- `prometheus.yml` – Prometheus scrape configuration
+- `/screenshots` – Dashboard screenshots
+
+### Skills Demonstrated
+- Linux system administration
+- Network monitoring
+- Prometheus metric scraping
+- Grafana dashboard creation
+- TCP/IP networking fundamentals
