@@ -17,7 +17,7 @@ Prometheus is used to scrape metrics from multiple Linux systems, and Grafana is
 - Linux Virtual Machine running:
   - Node Exporter
 
-### Metrics Collected
+### Monitored Signals
 - CPU utilization
 - Memory usage
 - Disk usage
