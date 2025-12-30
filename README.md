@@ -3,6 +3,7 @@
 ## Screenshots
 ![Dashboard 1](screenshots/raspberrypi.png)
 ![Dashboard 2](screenshots/linuxvm.png)
+*Top: Raspberry Pi metrics, Bottom: Linux VM metrics*
 
 ### Overview
 This project demonstrates a basic monitoring stack commonly used in Network Operations Centers (NOCs). 
